@@ -1,6 +1,6 @@
-# 📊 Sales Analysis Dashboard Project
+📊 Sales Analysis Dashboard Project
 
-## 🔍 Overview
+🔍 Overview
 
 This project analyzes sales data to extract meaningful insights such as revenue trends, top-performing products, and regional sales distribution. It also includes an interactive dashboard built using Power BI.
 
@@ -61,7 +61,7 @@ Revenue = Quantity × Price
 * Certain regions outperform others
 * Sales trend shows variation over time
 
-## 🚀 How to Run
+ 🚀 How to Run
 
 1. Open dataset in Python / Power BI
 2. Perform data cleaning and analysis
@@ -72,7 +72,6 @@ Revenue = Quantity × Price
 
 This project demonstrates how sales data can be transformed into actionable insights using data analysis and visualization techniques.
 
----
 👤 Author
 
 Your Name
