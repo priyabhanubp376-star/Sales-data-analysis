@@ -1,79 +1,56 @@
-📊 Sales Analysis Dashboard Project
+📊 Sales Data Analysis Project
 
-🔍 Overview
-
-This project analyzes sales data to extract meaningful insights such as revenue trends, top-performing products, and regional sales distribution. It also includes an interactive dashboard built using Power BI.
+📌 Overview
+This project focuses on analyzing sales data to extract meaningful insights and support data-driven business decisions. The analysis includes identifying revenue trends, top-performing products, and regional performance.
 
 ---
 
-🎯 Objective
+🛠️ Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
 
-* Analyze sales performance
-* Identify top-selling products
-* Understand regional sales distribution
-* Track monthly revenue trends
+---
 
- 🛠️ Tools & Technologies
+📂 Dataset
+The dataset contains the following fields:
+- Order ID
+- Date
+- Region
+- Product
+- Category
+- Quantity
+- Price
 
-* Python (Pandas, Matplotlib)
-* SQL
-* Power BI
+---
 
-📁 Dataset
+📊 Key Analysis Performed
+- Data cleaning and preprocessing
+- Creation of revenue column (Quantity × Price)
+- Monthly sales trend analysis
+- Top-performing products identification
+- Category-wise sales distribution
+- Region-wise sales performance
 
-The dataset includes:
+---
 
-* OrderID
-* Date
-* Product
-* Category
-* Region
-* Quantity
-* Price
-🔹 Calculated Column:
+📈 Key Insights
+- Electronics category generated the highest revenue
+- Maximum sales were observed in peak months
+- Certain regions contributed significantly to overall revenue
+- Top-selling products played a major role in revenue growth
 
-Revenue = Quantity × Price
-🧹 Data Cleaning
+---
 
-* Removed null values
-* Removed duplicates
-* Converted Date column to datetime format
-* Standardized text values
-* Created Revenue column
-📊 Analysis Performed
+📷 Visualizations
+The project includes:
+- Line chart for monthly sales trends
+- Bar chart for top products
+- Pie chart for category distribution
 
-* Total Revenue Calculation
-* Top Products by Revenue
-* Region-wise Sales Analysis
-* Monthly Sales Trend
-
-📈 Dashboard Features
-
-* 💰 Total Revenue (KPI Card)
-* 📊 Bar Chart: Top Products
-* 🌍 Pie Chart: Region-wise Sales
-* 📈 Line Chart: Monthly Trend
-* 🎛️ Slicer: Category / Region
-
-🔥 Key Insights
-
-* Top products contribute major share of revenue
-* Certain regions outperform others
-* Sales trend shows variation over time
-
- 🚀 How to Run
-
-1. Open dataset in Python / Power BI
-2. Perform data cleaning and analysis
-3. Open `.pbix` file in Power BI
-4. Explore dashboard using filters
-
- 🎤 Conclusion
-
-This project demonstrates how sales data can be transformed into actionable insights using data analysis and visualization techniques.
-
-👤 Author
-
-Your Name
-
-Bhanu Priya
+(Screenshots of graphs can be added in the images folder)
+---
+🚀 Conclusion
+This project demonstrates how data analysis techniques can be used to extract valuable business insights. The findings can help organizations improve decision-making and optimize sales strategies.
