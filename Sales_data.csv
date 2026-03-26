@@ -1,0 +1,4 @@
+OrderID,Date,Product,Category,Region,Quantity,Price
+1001, 2024-01-01, Laptop, Electronics, North,1,50000
+1002, 2024-01-02, Phone, Electronics, South,2,20000
+1003, 2024-01-03, Shoes, Fashion, East,3,3000
